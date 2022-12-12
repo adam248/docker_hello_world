@@ -28,7 +28,7 @@ ENV NAME World
 # Run app.py when the container launches
 CMD ["python", "app.py"]
 ```
-To use this image, first make sure you have Docker installed on your machine. Then, create a file called `app.py` in the same directory as the `Dockerfile` and add the following code to it:
+Then, create a file called `app.py` in the same directory as the `Dockerfile` and add the following code to it:
 
 
 ```
@@ -48,6 +48,9 @@ Next, create a file called `requirements.txt` and add the following line to it:
 ```
 flask
 ```
+
+To use this image, first make sure you have Docker installed on your machine.
+
 Now, to build the Docker image, run the following command:
 
 
