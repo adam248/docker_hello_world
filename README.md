@@ -3,7 +3,7 @@ An example of a hello world docker app
 
 ## A simple `Hello World docker image` 
 
-First create a DockerFile in the root directory of the project.
+First create a `Dockerfile` in the root directory of the project.
 
 
 ```
