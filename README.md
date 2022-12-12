@@ -7,7 +7,7 @@ First create a DockerFile in the root directory of the project.
 
 
 ```
-Copy code`# Use an official Python runtime as a base image
+# Use an official Python runtime as a base image
 FROM python:3.8-slim
 
 # Set the working directory to /app
@@ -32,7 +32,7 @@ To use this image, first make sure you have Docker installed on your machine. Th
 
 
 ```
-Copy code`from flask import Flask
+from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
