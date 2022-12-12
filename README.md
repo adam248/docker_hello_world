@@ -1,7 +1,9 @@
 # docker_hello_world
 An example of a hello world docker app
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)![Adam Butler](/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAEdFTp4ukNZ1BDcC_CTVA4cWCgFHo57HYmo-zEIEnRsbwQ%3Ds96-c&w=64&q=75)can you make a simple hello world docker imageSure, here is a simple "Hello World" Docker image that you can create:
+## A simple `Hello World docker image` 
+
+First create a DockerFile in the root directory of the project.
 
 
 ```
@@ -60,7 +62,9 @@ Copy code`docker run -p 80:80 hello-world`
 ```
 This will start a container running the `hello-world` image and map port 80 on the host machine to port 80 in the container. You should then be able to access the "Hello World" application by going to `http://localhost` in your web browser.
 
-## How can I publish this to docker.orgTo publish your Docker image to Docker Hub, you will first need to create an account on Docker Hub. Once you have an account, you can log in to Docker Hub from the command line using the `docker login` command.
+## How can I publish this to Docker Hub?
+
+To publish your Docker image to Docker Hub, you will first need to create an account on Docker Hub. Once you have an account, you can log in to Docker Hub from the command line using the `docker login` command.
 
 After logging in, you can use the `docker tag` command to give your image a name and tag, which is a version number that identifies the specific version of your image. For example, you might tag your image as `hello-world:1.0`.
 
