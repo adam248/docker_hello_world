@@ -1,4 +1,4 @@
-# docker_hello_world
+# Docker Hello World
 An example of a hello world docker app
 
 ## A simple `Hello World docker image` 
