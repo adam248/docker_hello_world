@@ -39,7 +39,7 @@ app = Flask(__name__)
 def hello():
  return 'Hello, World!'
 
-if __name__ == '\_\_main\_\_':
+if __name__ == '__main__':
  app.run(host='0.0.0.0', port=80)
 ```
 Next, create a file called `requirements.txt` and add the following line to it:
